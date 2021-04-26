@@ -1,0 +1,867 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		29B0F2E16ACBECA336BD142098A9039C /* RongCloudRTC */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 1460B9D28516BE44DDCBAD5BC65A71F8 /* Build configuration list for PBXAggregateTarget "RongCloudRTC" */;
+			buildPhases = (
+			);
+			dependencies = (
+				DEAE4EAEBB9AE83E3082E8E0300FBF04 /* PBXTargetDependency */,
+			);
+			name = RongCloudRTC;
+		};
+		5F1390C193C1C7A4549931293D944BC0 /* RongCloudIM */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 93BAAA9C594CFA16357B1C6758BCC89C /* Build configuration list for PBXAggregateTarget "RongCloudIM" */;
+			buildPhases = (
+				A61C7D6E225D84C7D4FE8E52D62AA4B6 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = RongCloudIM;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		04F3A8E0A374EDA1B109EB4C24867DEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		51B6200234293C6594057CF42B9A976B /* Pods-RCRTCQuickDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C15339C22EAAE6BB73D5BD4F6BF9BB1 /* Pods-RCRTCQuickDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		844FB5915CED883E792478391F3FCDFD /* Pods-RCRTCQuickDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC1B19FE3FD356FCA9AB9A70283CA97 /* Pods-RCRTCQuickDemo-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1CC004BAB30C33C087E84E226FA5DF2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F1390C193C1C7A4549931293D944BC0;
+			remoteInfo = RongCloudIM;
+		};
+		6C4EFDBDAD542003B069EC106C2902D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29B0F2E16ACBECA336BD142098A9039C;
+			remoteInfo = RongCloudRTC;
+		};
+		E7F8FF57B66F6D92E2433093F6A36905 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F1390C193C1C7A4549931293D944BC0;
+			remoteInfo = RongCloudIM;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		022E4771A1E2241AFF361F7E9C87FFE0 /* RCColor.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = RCColor.plist; path = RongCloudIM/RCColor.plist; sourceTree = "<group>"; };
+		0F376C7D95BCE1530415D168939EAF72 /* RongCloudRTC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RongCloudRTC.debug.xcconfig; sourceTree = "<group>"; };
+		159E385C67857B5D9F639274EF0F40F6 /* Pods-RCRTCQuickDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RCRTCQuickDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		186AB976F36BD5EE7F13B450A077B5F3 /* ar.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ar.lproj; path = RongCloudRTC/ar.lproj; sourceTree = "<group>"; };
+		242BF31AEA957C78D460430E53377676 /* RongPublicService.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = RongPublicService.xcframework; path = RongCloudIM/RongPublicService.xcframework; sourceTree = "<group>"; };
+		2560D123AD32DC537CACE16663DF202A /* Pods_RCRTCQuickDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RCRTCQuickDemo.framework; path = "Pods-RCRTCQuickDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B3E53EACBD9907FB0C37F7A22F0646B /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = en.lproj; path = RongCloudRTC/en.lproj; sourceTree = "<group>"; };
+		384A229ADA104EC5EEFFBB01C910EEB4 /* Pods-RCRTCQuickDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RCRTCQuickDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3E52E9088A9888765571BFCEB699AC08 /* RongCloudIM-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "RongCloudIM-xcframeworks.sh"; sourceTree = "<group>"; };
+		4AC5729FDE0FCACB1A47350B1F2B6C70 /* Pods-RCRTCQuickDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RCRTCQuickDemo.modulemap"; sourceTree = "<group>"; };
+		4E9EB291F3F57625A35661B221A3EBD4 /* RongIMLib.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = RongIMLib.xcframework; path = RongCloudIM/RongIMLib.xcframework; sourceTree = "<group>"; };
+		539309FC62A347DCC9453D2AA14C4BE4 /* RCConfig.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = RCConfig.plist; path = RongCloudIM/RCConfig.plist; sourceTree = "<group>"; };
+		56F1DF3E77FC624CFF934173F61C9C75 /* RongCloudIM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RongCloudIM.release.xcconfig; sourceTree = "<group>"; };
+		5720AEC738C4D9072CDB2721F5EB2FB0 /* RongCallKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RongCallKit.framework; path = RongCloudRTC/RongCallKit.framework; sourceTree = "<group>"; };
+		5C15339C22EAAE6BB73D5BD4F6BF9BB1 /* Pods-RCRTCQuickDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RCRTCQuickDemo-umbrella.h"; sourceTree = "<group>"; };
+		63392F53F5ED357FE87C7B90FDC4690D /* RongCallLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RongCallLib.framework; path = RongCloudRTC/RongCallLib.framework; sourceTree = "<group>"; };
+		6CBFC8E98F984085B6523F9762690589 /* Pods-RCRTCQuickDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RCRTCQuickDemo.release.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7A52D6522E31A3294AB0109CA0A1E5CB /* zh-Hans.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = "zh-Hans.lproj"; path = "RongCloudIM/zh-Hans.lproj"; sourceTree = "<group>"; };
+		89B2ED832B18526D988849FE10ADFB67 /* RongIMLibCore.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = RongIMLibCore.xcframework; path = RongCloudIM/RongIMLibCore.xcframework; sourceTree = "<group>"; };
+		89B85CF64110434FFB4CE2A1C339A14B /* RongCustomerService.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = RongCustomerService.xcframework; path = RongCloudIM/RongCustomerService.xcframework; sourceTree = "<group>"; };
+		8A73CCD5121862ACCBEA0F643A6DD40E /* RongIMKit.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = RongIMKit.xcframework; path = RongCloudIM/RongIMKit.xcframework; sourceTree = "<group>"; };
+		905DE594BC6CA2FB983C88F5D88C3096 /* Pods-RCRTCQuickDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RCRTCQuickDemo-frameworks.sh"; sourceTree = "<group>"; };
+		952F61114D91F92060F5E33716130884 /* RongChatRoom.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = RongChatRoom.xcframework; path = RongCloudIM/RongChatRoom.xcframework; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A424E8FD4F269E8F39F893FE737EFFBA /* Pods-RCRTCQuickDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RCRTCQuickDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		A96926899729C0D56C5666129EB438F9 /* RongCloud.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = RongCloud.bundle; path = RongCloudIM/RongCloud.bundle; sourceTree = "<group>"; };
+		AA04E3CB9F7ADDFC6C3CC99EDC2F03C6 /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = en.lproj; path = RongCloudIM/en.lproj; sourceTree = "<group>"; };
+		ABAEE9CE567F0436145E8316DD23E905 /* RongLocation.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = RongLocation.xcframework; path = RongCloudIM/RongLocation.xcframework; sourceTree = "<group>"; };
+		ADA85E0BF8B90ED932E6ACC0F82CCEFF /* Pods-RCRTCQuickDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RCRTCQuickDemo-Info.plist"; sourceTree = "<group>"; };
+		AEC1B19FE3FD356FCA9AB9A70283CA97 /* Pods-RCRTCQuickDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RCRTCQuickDemo-dummy.m"; sourceTree = "<group>"; };
+		B7A30B86716E4C4033A282A277953077 /* RongRTCLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RongRTCLib.framework; path = RongCloudRTC/RongRTCLib.framework; sourceTree = "<group>"; };
+		C2F96322E3BC553FD1504F1FF8808C19 /* ar.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ar.lproj; path = RongCloudIM/ar.lproj; sourceTree = "<group>"; };
+		CE7F3DD4F0FABA1FBE647AFEE144A258 /* RongCloudRTC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RongCloudRTC.release.xcconfig; sourceTree = "<group>"; };
+		E1CF52E7CD7FCB5F1A93C0FCD1E36FB1 /* RongDiscussion.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = RongDiscussion.xcframework; path = RongCloudIM/RongDiscussion.xcframework; sourceTree = "<group>"; };
+		F20DEE6918B5884CFCA6CE7A97B70202 /* Pods-RCRTCQuickDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RCRTCQuickDemo-resources.sh"; sourceTree = "<group>"; };
+		F9B29F687274929AA37FAAE030702C48 /* RongCloudIM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RongCloudIM.debug.xcconfig; sourceTree = "<group>"; };
+		F9F2F7CBC969B2CA8290E4CD69B5993F /* zh-Hans.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = "zh-Hans.lproj"; path = "RongCloudRTC/zh-Hans.lproj"; sourceTree = "<group>"; };
+		FDC81059172DDDCCF6896E6A54645209 /* Emoji.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Emoji.plist; path = RongCloudIM/Emoji.plist; sourceTree = "<group>"; };
+		FE38F3B0260AC638D9157896034D9695 /* RongCallKit.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = RongCallKit.bundle; path = RongCloudRTC/RongCallKit.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1BADBC705ED21AE15E0600B937FF5544 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F3A8E0A374EDA1B109EB4C24867DEF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0287D68BF73CD330B9BFFC5315912CE4 /* CustomerService */ = {
+			isa = PBXGroup;
+			children = (
+				45A9F948929FFE0DA82CD7CC3C215ED8 /* Frameworks */,
+			);
+			name = CustomerService;
+			sourceTree = "<group>";
+		};
+		0E18DFBB18DAE8132C0ED63B028766C9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E52E9088A9888765571BFCEB699AC08 /* RongCloudIM-xcframeworks.sh */,
+				F9B29F687274929AA37FAAE030702C48 /* RongCloudIM.debug.xcconfig */,
+				56F1DF3E77FC624CFF934173F61C9C75 /* RongCloudIM.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RongCloudIM";
+			sourceTree = "<group>";
+		};
+		0E79651DFE3B4DDBEB3E5B7052A6C897 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5720AEC738C4D9072CDB2721F5EB2FB0 /* RongCallKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2434457E045FA23E0B9DDD3B458161C7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2D54E459E71A59BA650ADAD3FE6775C4 /* RongCloudIM */,
+				F2ACB944D091B50E1DD8F81FA6716A1D /* RongCloudRTC */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		291276B134FCF6B03A2419232520A289 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89B2ED832B18526D988849FE10ADFB67 /* RongIMLibCore.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2AC74134AD43C31E1B6845DAC9957200 /* IMKit */ = {
+			isa = PBXGroup;
+			children = (
+				4BD3086EC1EA36D3417C9C584AC512C6 /* Frameworks */,
+				98C221C8A7BE7259DBA907DF0925215E /* Resources */,
+			);
+			name = IMKit;
+			sourceTree = "<group>";
+		};
+		2D54E459E71A59BA650ADAD3FE6775C4 /* RongCloudIM */ = {
+			isa = PBXGroup;
+			children = (
+				6B31F1002A4D21F2200ED01C7E35CAC6 /* ChatRoom */,
+				0287D68BF73CD330B9BFFC5315912CE4 /* CustomerService */,
+				A6FE9AC26C17972BF2DEB6263B3C965B /* Discussion */,
+				2AC74134AD43C31E1B6845DAC9957200 /* IMKit */,
+				3805DAFBCE90698EBD7966CEF9E981B8 /* IMLib */,
+				A986BF77C4702F8F648C6DBA4996BBDB /* IMLibCore */,
+				9D57C8E4D4F16385E3EF5B9B6422E104 /* Location */,
+				D796FE4F7F56A18DBF1DD57A0D651B7F /* PublicService */,
+				0E18DFBB18DAE8132C0ED63B028766C9 /* Support Files */,
+			);
+			name = RongCloudIM;
+			path = RongCloudIM;
+			sourceTree = "<group>";
+		};
+		3805DAFBCE90698EBD7966CEF9E981B8 /* IMLib */ = {
+			isa = PBXGroup;
+			children = (
+				57629CB173225CE706DE72DDF919FC6A /* Frameworks */,
+			);
+			name = IMLib;
+			sourceTree = "<group>";
+		};
+		45A9F948929FFE0DA82CD7CC3C215ED8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89B85CF64110434FFB4CE2A1C339A14B /* RongCustomerService.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		467CA8A68EF12EA4C63CCAB7787309C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63392F53F5ED357FE87C7B90FDC4690D /* RongCallLib.framework */,
+				B7A30B86716E4C4033A282A277953077 /* RongRTCLib.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4BD3086EC1EA36D3417C9C584AC512C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A73CCD5121862ACCBEA0F643A6DD40E /* RongIMKit.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		57629CB173225CE706DE72DDF919FC6A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E9EB291F3F57625A35661B221A3EBD4 /* RongIMLib.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5D3B112E71CED8F08B2BCB6921A99648 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B46F2D3AB0021E61C4DEEA59FAEC828 /* Pods-RCRTCQuickDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5EBAC4E3FDC51CA9D2A9B334526F18E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1CF52E7CD7FCB5F1A93C0FCD1E36FB1 /* RongDiscussion.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B31F1002A4D21F2200ED01C7E35CAC6 /* ChatRoom */ = {
+			isa = PBXGroup;
+			children = (
+				B9DFA1D6D98003C94B1EAB1E1AF4B49A /* Frameworks */,
+			);
+			name = ChatRoom;
+			sourceTree = "<group>";
+		};
+		7103ABCEFA284AA7F81FAE6FD8F1A114 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				242BF31AEA957C78D460430E53377676 /* RongPublicService.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		874621A9D8CC5C9BEA3D9C2C3ED3B110 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				186AB976F36BD5EE7F13B450A077B5F3 /* ar.lproj */,
+				2B3E53EACBD9907FB0C37F7A22F0646B /* en.lproj */,
+				FE38F3B0260AC638D9157896034D9695 /* RongCallKit.bundle */,
+				F9F2F7CBC969B2CA8290E4CD69B5993F /* zh-Hans.lproj */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8B46F2D3AB0021E61C4DEEA59FAEC828 /* Pods-RCRTCQuickDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4AC5729FDE0FCACB1A47350B1F2B6C70 /* Pods-RCRTCQuickDemo.modulemap */,
+				384A229ADA104EC5EEFFBB01C910EEB4 /* Pods-RCRTCQuickDemo-acknowledgements.markdown */,
+				A424E8FD4F269E8F39F893FE737EFFBA /* Pods-RCRTCQuickDemo-acknowledgements.plist */,
+				AEC1B19FE3FD356FCA9AB9A70283CA97 /* Pods-RCRTCQuickDemo-dummy.m */,
+				905DE594BC6CA2FB983C88F5D88C3096 /* Pods-RCRTCQuickDemo-frameworks.sh */,
+				ADA85E0BF8B90ED932E6ACC0F82CCEFF /* Pods-RCRTCQuickDemo-Info.plist */,
+				F20DEE6918B5884CFCA6CE7A97B70202 /* Pods-RCRTCQuickDemo-resources.sh */,
+				5C15339C22EAAE6BB73D5BD4F6BF9BB1 /* Pods-RCRTCQuickDemo-umbrella.h */,
+				159E385C67857B5D9F639274EF0F40F6 /* Pods-RCRTCQuickDemo.debug.xcconfig */,
+				6CBFC8E98F984085B6523F9762690589 /* Pods-RCRTCQuickDemo.release.xcconfig */,
+			);
+			name = "Pods-RCRTCQuickDemo";
+			path = "Target Support Files/Pods-RCRTCQuickDemo";
+			sourceTree = "<group>";
+		};
+		8FD8A7B52E73020A182778D85E6155C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABAEE9CE567F0436145E8316DD23E905 /* RongLocation.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		98C221C8A7BE7259DBA907DF0925215E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C2F96322E3BC553FD1504F1FF8808C19 /* ar.lproj */,
+				FDC81059172DDDCCF6896E6A54645209 /* Emoji.plist */,
+				AA04E3CB9F7ADDFC6C3CC99EDC2F03C6 /* en.lproj */,
+				022E4771A1E2241AFF361F7E9C87FFE0 /* RCColor.plist */,
+				A96926899729C0D56C5666129EB438F9 /* RongCloud.bundle */,
+				7A52D6522E31A3294AB0109CA0A1E5CB /* zh-Hans.lproj */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		9D57C8E4D4F16385E3EF5B9B6422E104 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				8FD8A7B52E73020A182778D85E6155C0 /* Frameworks */,
+			);
+			name = Location;
+			sourceTree = "<group>";
+		};
+		A6FE9AC26C17972BF2DEB6263B3C965B /* Discussion */ = {
+			isa = PBXGroup;
+			children = (
+				5EBAC4E3FDC51CA9D2A9B334526F18E7 /* Frameworks */,
+			);
+			name = Discussion;
+			sourceTree = "<group>";
+		};
+		A986BF77C4702F8F648C6DBA4996BBDB /* IMLibCore */ = {
+			isa = PBXGroup;
+			children = (
+				291276B134FCF6B03A2419232520A289 /* Frameworks */,
+				D493F1EADB9118195E08AC658F80091A /* Resources */,
+			);
+			name = IMLibCore;
+			sourceTree = "<group>";
+		};
+		AE0CEC819D3C800D34C987BD02994568 /* RongCallKit */ = {
+			isa = PBXGroup;
+			children = (
+				0E79651DFE3B4DDBEB3E5B7052A6C897 /* Frameworks */,
+				874621A9D8CC5C9BEA3D9C2C3ED3B110 /* Resources */,
+			);
+			name = RongCallKit;
+			sourceTree = "<group>";
+		};
+		B9DFA1D6D98003C94B1EAB1E1AF4B49A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				952F61114D91F92060F5E33716130884 /* RongChatRoom.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCE1F9FE21E7E22C806C2DE7985341C4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F376C7D95BCE1530415D168939EAF72 /* RongCloudRTC.debug.xcconfig */,
+				CE7F3DD4F0FABA1FBE647AFEE144A258 /* RongCloudRTC.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RongCloudRTC";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				2434457E045FA23E0B9DDD3B458161C7 /* Pods */,
+				E2EF58717F563F4A4BCA509D15C3E120 /* Products */,
+				5D3B112E71CED8F08B2BCB6921A99648 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D493F1EADB9118195E08AC658F80091A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				539309FC62A347DCC9453D2AA14C4BE4 /* RCConfig.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D796FE4F7F56A18DBF1DD57A0D651B7F /* PublicService */ = {
+			isa = PBXGroup;
+			children = (
+				7103ABCEFA284AA7F81FAE6FD8F1A114 /* Frameworks */,
+			);
+			name = PublicService;
+			sourceTree = "<group>";
+		};
+		E2EF58717F563F4A4BCA509D15C3E120 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2560D123AD32DC537CACE16663DF202A /* Pods_RCRTCQuickDemo.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E569B3573A0B865EC7C6A04C7AD0F864 /* RongCallLib */ = {
+			isa = PBXGroup;
+			children = (
+				467CA8A68EF12EA4C63CCAB7787309C3 /* Frameworks */,
+			);
+			name = RongCallLib;
+			sourceTree = "<group>";
+		};
+		F2ACB944D091B50E1DD8F81FA6716A1D /* RongCloudRTC */ = {
+			isa = PBXGroup;
+			children = (
+				AE0CEC819D3C800D34C987BD02994568 /* RongCallKit */,
+				E569B3573A0B865EC7C6A04C7AD0F864 /* RongCallLib */,
+				CCE1F9FE21E7E22C806C2DE7985341C4 /* Support Files */,
+			);
+			name = RongCloudRTC;
+			path = RongCloudRTC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2FEA5E54EB793D7913CB47F005649A41 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51B6200234293C6594057CF42B9A976B /* Pods-RCRTCQuickDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C130B6E0318554831760DB71C329E069 /* Pods-RCRTCQuickDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1C1D10A39BDEA773BD41D6C1B961773 /* Build configuration list for PBXNativeTarget "Pods-RCRTCQuickDemo" */;
+			buildPhases = (
+				2FEA5E54EB793D7913CB47F005649A41 /* Headers */,
+				4877A8036DACCD0B8E22AAB4B8B00A76 /* Sources */,
+				1BADBC705ED21AE15E0600B937FF5544 /* Frameworks */,
+				F33AD316A91EC8373929EA7478503964 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3C368A325DAFA1170F91BAC46C72870 /* PBXTargetDependency */,
+				74F53A33CCA5EC15762594E2B99D3D8C /* PBXTargetDependency */,
+			);
+			name = "Pods-RCRTCQuickDemo";
+			productName = "Pods-RCRTCQuickDemo";
+			productReference = 2560D123AD32DC537CACE16663DF202A /* Pods_RCRTCQuickDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E2EF58717F563F4A4BCA509D15C3E120 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C130B6E0318554831760DB71C329E069 /* Pods-RCRTCQuickDemo */,
+				5F1390C193C1C7A4549931293D944BC0 /* RongCloudIM */,
+				29B0F2E16ACBECA336BD142098A9039C /* RongCloudRTC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F33AD316A91EC8373929EA7478503964 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A61C7D6E225D84C7D4FE8E52D62AA4B6 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/RongCloudIM/RongCloudIM-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/RongCloudIM/RongCloudIM-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/RongCloudIM/RongCloudIM-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4877A8036DACCD0B8E22AAB4B8B00A76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844FB5915CED883E792478391F3FCDFD /* Pods-RCRTCQuickDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		74F53A33CCA5EC15762594E2B99D3D8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RongCloudRTC;
+			target = 29B0F2E16ACBECA336BD142098A9039C /* RongCloudRTC */;
+			targetProxy = 6C4EFDBDAD542003B069EC106C2902D7 /* PBXContainerItemProxy */;
+		};
+		A3C368A325DAFA1170F91BAC46C72870 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RongCloudIM;
+			target = 5F1390C193C1C7A4549931293D944BC0 /* RongCloudIM */;
+			targetProxy = 1CC004BAB30C33C087E84E226FA5DF2A /* PBXContainerItemProxy */;
+		};
+		DEAE4EAEBB9AE83E3082E8E0300FBF04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RongCloudIM;
+			target = 5F1390C193C1C7A4549931293D944BC0 /* RongCloudIM */;
+			targetProxy = E7F8FF57B66F6D92E2433093F6A36905 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1C8D380B3CC0E7D30C8ED2CBAD4196DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56F1DF3E77FC624CFF934173F61C9C75 /* RongCloudIM.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A9E0374E9FB5F03B088C027514ACAAF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F376C7D95BCE1530415D168939EAF72 /* RongCloudRTC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB66CE26BDF245DDE726D63F81DCDDBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE7F3DD4F0FABA1FBE647AFEE144A258 /* RongCloudRTC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		DD1B1C9B19F60684285108000B276445 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CBFC8E98F984085B6523F9762690589 /* Pods-RCRTCQuickDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RCRTCQuickDemo/Pods-RCRTCQuickDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RCRTCQuickDemo/Pods-RCRTCQuickDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F267EA45871906B4EF8F26617204A2F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9B29F687274929AA37FAAE030702C48 /* RongCloudIM.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F50CBA5E06B6EC033CF6FDB814E4A76B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 159E385C67857B5D9F639274EF0F40F6 /* Pods-RCRTCQuickDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RCRTCQuickDemo/Pods-RCRTCQuickDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RCRTCQuickDemo/Pods-RCRTCQuickDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1460B9D28516BE44DDCBAD5BC65A71F8 /* Build configuration list for PBXAggregateTarget "RongCloudRTC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9E0374E9FB5F03B088C027514ACAAF9 /* Debug */,
+				AB66CE26BDF245DDE726D63F81DCDDBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93BAAA9C594CFA16357B1C6758BCC89C /* Build configuration list for PBXAggregateTarget "RongCloudIM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F267EA45871906B4EF8F26617204A2F4 /* Debug */,
+				1C8D380B3CC0E7D30C8ED2CBAD4196DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1C1D10A39BDEA773BD41D6C1B961773 /* Build configuration list for PBXNativeTarget "Pods-RCRTCQuickDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F50CBA5E06B6EC033CF6FDB814E4A76B /* Debug */,
+				DD1B1C9B19F60684285108000B276445 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

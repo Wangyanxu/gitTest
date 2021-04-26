@@ -1,0 +1,9 @@
+${PODS_ROOT}/Target Support Files/Pods-RCRTCQuickDemo/Pods-RCRTCQuickDemo-frameworks.sh
+${PODS_XCFRAMEWORKS_BUILD_DIR}/RongChatRoom/RongChatRoom.framework/RongChatRoom
+${PODS_XCFRAMEWORKS_BUILD_DIR}/RongCustomerService/RongCustomerService.framework/RongCustomerService
+${PODS_XCFRAMEWORKS_BUILD_DIR}/RongDiscussion/RongDiscussion.framework/RongDiscussion
+${PODS_XCFRAMEWORKS_BUILD_DIR}/RongIMKit/RongIMKit.framework/RongIMKit
+${PODS_XCFRAMEWORKS_BUILD_DIR}/RongIMLib/RongIMLib.framework/RongIMLib
+${PODS_XCFRAMEWORKS_BUILD_DIR}/RongIMLibCore/RongIMLibCore.framework/RongIMLibCore
+${PODS_XCFRAMEWORKS_BUILD_DIR}/RongLocation/RongLocation.framework/RongLocation
+${PODS_XCFRAMEWORKS_BUILD_DIR}/RongPublicService/RongPublicService.framework/RongPublicService
